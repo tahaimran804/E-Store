@@ -7,11 +7,11 @@ import style from '@/app/Style/Hero.module.css'
 import Image from "next/image";
 
 const images = [
-  "/images/slider1.webp",
-  "/images/slider2.webp",
-  "/images/slider3.webp",
-  "/images/slider4.webp",
-  "/images/slider5.webp",
+  "/Images/slider1.webp",
+  "/Images/slider2.webp",
+  "/Images/slider3.webp",
+  "/Images/slider4.webp",
+  "/Images/slider5.webp",
 ];
 
 const ProductSlider = () => {
