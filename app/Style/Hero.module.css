@@ -1,0 +1,70 @@
+.Hero_sec {
+  width: 50%;
+  height: auto;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Slider {
+  width: 50%;
+  height: auto;
+}
+
+.HeroSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 50px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.StoreProducts {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin: 50px 0px;
+  gap: 30px;
+}
+
+/* reponsive Area  */
+
+@media(max-width:900px) {
+  .StoreProducts {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+@media(max-width:800px) {
+  .HeroSection {
+    display: flex;
+    margin: 50px 0px;
+    align-items: start;
+    justify-content: start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .Hero_sec {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Slider {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media(max-width:500px) {
+  .Slider {
+    display: none;
+  }
+}

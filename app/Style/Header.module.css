@@ -1,0 +1,61 @@
+.searchBox input {
+  transition: all 0.3s ease;
+}
+
+.searchBox input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 6px rgba(79, 70, 229, 0.4);
+}
+
+
+.RessearchBox {
+  display: none;
+}
+
+.SearchProduct {
+  width: 100%;
+  height: auto;
+  background-color: white;
+
+  span {
+    img {
+      width: 100%;
+      height: 300px;
+    }
+  }
+}
+
+.SearchItems {
+  overflow: scroll;
+}
+
+.SearchItems::-webkit-scrollbar {
+  width: 0px;
+}
+
+.SearchIcon {
+  display: none;
+}
+
+/* Responsive Header  */
+
+@media(max-width:650px) {
+  .searchBox {
+    display: none;
+  }
+
+  .SearchIcon {
+    display: block;
+  }
+
+  .RessearchBox {
+    display: flex !important;
+  }
+}
+
+@media(max-width:500px) {
+  .SearchItems {
+    width: 100% !important;
+  }
+
+}
